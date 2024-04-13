@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Біг мак",
+    "systemName": "bigmac",
+    "imagePath": "bigMac.jpeg"
+  },
+  {
+    "name": "Мак чікен",
+    "systemName": "mcChicken",
+    "imagePath": "mcChicken.jpeg"
+  },
+  {
+    "name": "Роял Делюкс",
+    "systemName": "royalDelux",
+    "imagePath": "royalDelux.jpeg"
+  },
+  {
+    "name": "Гамбургер",
+    "systemName": "gamburger",
+    "imagePath": "gamburger.jpeg"
+  },
+  {
+    "name": "Чізбургер",
+    "systemName": "cheesburger",
+    "imagePath": "cheesburger.jpeg"
+  },
+  {
+    "name": "Дабл Чізбургер",
+    "systemName": "doubleCheesburger",
+    "imagePath": "doubleCheesburger.jpeg"
+  },
+  {
+    "name": "Біг Тейсті",
+    "systemName": "bigTasty",
+    "imagePath": "bigTasty.jpeg"
+  }
+]
+
