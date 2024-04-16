@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adonis-waste-tracker/static/css/main.b79cc35b.css",
+    "main.js": "/adonis-waste-tracker/static/js/main.ad888306.js",
+    "static/js/453.a322910e.chunk.js": "/adonis-waste-tracker/static/js/453.a322910e.chunk.js",
+    "static/media/bun.png": "/adonis-waste-tracker/static/media/bun.f8f85e775b9adb946525.png",
+    "index.html": "/adonis-waste-tracker/index.html",
+    "main.b79cc35b.css.map": "/adonis-waste-tracker/static/css/main.b79cc35b.css.map",
+    "main.ad888306.js.map": "/adonis-waste-tracker/static/js/main.ad888306.js.map",
+    "453.a322910e.chunk.js.map": "/adonis-waste-tracker/static/js/453.a322910e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79cc35b.css",
+    "static/js/main.ad888306.js"
+  ]
+}
