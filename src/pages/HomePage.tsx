@@ -98,10 +98,10 @@ function HomePage() {
   const handleAddToList = (product: string) => {
     const amountToAdd = selectedAmount === '' ? 1 : +selectedAmount;
     const modifiedProduct = selectedCategory === 6 ? `RW-${product}` : product;
-  
+
     // Check if the product already exists in the waste list
     const existingItemIndex = wasteList.findIndex(item => item.product === modifiedProduct);
-  
+
     if (existingItemIndex !== -1) {
       // If the product exists, create a new array with updated amounts
       setWasteList(prevList => {
@@ -118,11 +118,11 @@ function HomePage() {
       // If the product does not exist, add it to the waste list
       setWasteList(prevList => [...prevList, { product: modifiedProduct, amount: amountToAdd }]);
     }
-  
+
     setSelectedAmount('');
   };
-  
-  
+
+
   const handleSaveToDatabase = async () => {
     try {
       const currentDate = new Date();
@@ -130,13 +130,13 @@ function HomePage() {
       const currentHour = currentDate.getHours();
       const currentMinute = currentDate.getMinutes();
       let shift;
-  
+
       if ((currentHour < 14 && currentHour >= 5) || (currentHour === 14 && currentMinute < 30)) {
         shift = "1SH";
       } else {
         shift = "2SH";
       }
-  
+
       for (const wasteItem of wasteList) {
         try {
           const result = `${currentDay} ${shift}`;
@@ -148,7 +148,7 @@ function HomePage() {
           return Promise.reject(error);
         }
       }
-  
+
       // If all updates are successful, clear the waste list
       setWasteList([]);
       console.log('All waste items saved to Firebase successfully');
@@ -156,9 +156,9 @@ function HomePage() {
       console.error('Error saving waste items to Firebase:', error);
     }
   };
-  
-  
-  
+
+
+
 
   return (
     <>
@@ -190,6 +190,18 @@ function HomePage() {
             <>
               <Typography variant="h6" gutterBottom>
                 Списано:
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={() => setWasteList([])}
+                  sx={{
+                    marginTop: '20px',
+                    fontSize: '12px',
+                    height: '40px',
+                  }}
+                >
+                  Очистити
+                </Button>
               </Typography>
               <ul className="waste-list">
                 {wasteList.map(wasteItem => (

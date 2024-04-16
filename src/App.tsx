@@ -1,6 +1,5 @@
 import React from 'react';
 import { HashRouter, Routes, Route, NavLink } from 'react-router-dom';
-import HistoryIcon from '@mui/icons-material/History';
 import DeleteIcon from '@mui/icons-material/Delete';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
