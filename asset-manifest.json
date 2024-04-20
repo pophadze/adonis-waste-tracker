@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/adonis-waste-tracker/static/css/main.ad28a279.css",
-    "main.js": "/adonis-waste-tracker/static/js/main.68eb269c.js",
+    "main.js": "/adonis-waste-tracker/static/js/main.b4492b05.js",
     "static/js/453.a322910e.chunk.js": "/adonis-waste-tracker/static/js/453.a322910e.chunk.js",
     "static/media/bun.png": "/adonis-waste-tracker/static/media/bun.f8f85e775b9adb946525.png",
     "index.html": "/adonis-waste-tracker/index.html",
     "main.ad28a279.css.map": "/adonis-waste-tracker/static/css/main.ad28a279.css.map",
-    "main.68eb269c.js.map": "/adonis-waste-tracker/static/js/main.68eb269c.js.map",
+    "main.b4492b05.js.map": "/adonis-waste-tracker/static/js/main.b4492b05.js.map",
     "453.a322910e.chunk.js.map": "/adonis-waste-tracker/static/js/453.a322910e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad28a279.css",
-    "static/js/main.68eb269c.js"
+    "static/js/main.b4492b05.js"
   ]
 }
